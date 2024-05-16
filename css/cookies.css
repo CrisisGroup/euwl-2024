@@ -8,7 +8,7 @@
 	line-height: 20px;
 	left: 0;
 	text-align: center;
-	border-top: 1px solid #fbb03b;
+	border-top: 1px solid #fff;
 	font-weight: normal;
 	font-family: -apple-system,BlinkMacSystemFont,Arial,Roboto,"Helvetica Neue",sans-serif;
 }
@@ -36,16 +36,9 @@
 	display: block;
 }
 
-#cookie-notice.cookie-notice-hidden .cookie-notice-container {
-}
-
 #cookie-notice .cookie-revoke-container {
 	display: block;
 }
-
-#cookie-notice.cookie-revoke-hidden .cookie-revoke-container {
-}
-
 .cn-position-top {
 	top: 0;
 }

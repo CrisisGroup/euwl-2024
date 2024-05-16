@@ -27,7 +27,7 @@
 	<meta property="og:image:height" content="630" />
 
 	<meta charset='utf-8' />
-	<title>[Visual] Ten Conflicts to Watch 2023 | International Crisis Group</title>
+	<title>[Visual] The 2024 EU Watch List | International Crisis Group</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 	<meta name="description"
 		content="Russia’s invasion of Ukraine sent shock waves round the world, and several other crises loom as well. Here are the 10 Conflicts to Watch in 2023" />
@@ -73,15 +73,13 @@
 		});
 	</script>
 
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-6XT7HNCRW0"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'G-3PVTVE245X');
-	</script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-TD5NKJJ');</script>
+		<!-- End Google Tag Manager -->
 
 </head>
 
@@ -18068,19 +18066,6 @@
 
 		map.on("load", function () {
 			console.log('loaded');
-			if (config.use3dTerrain) {
-				map.addSource('mapbox-dem', {
-					'type': 'raster-dem',
-					'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
-					'tileSize': 512,
-					'maxzoom': 14
-				});
-				// add the DEM source as a terrain layer with exaggerated height
-				map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
-
-				// add a sky layer that will show when the map is highly pitched
-
-			};
 
 			// As the map moves, grab and update bounds in inset map.
 			if (config.inset) {
@@ -18415,7 +18400,7 @@
 
 			map.addSource('dot-point', {
 				type: 'vector',
-				url: 'mapbox://daltonwb.clby5lqgj0c4r2dpb5ro9gckp-5r4vu'
+				url: 'mapbox://daltonwb.clw98qd4rac5q1mljhs6n9223-83mo3'
 			});
 
 			map.addLayer({
@@ -18426,7 +18411,7 @@
 					'icon-image': 'pulsing-dot',
 					'icon-allow-overlap': true
 				},
-				'source-layer': '10CTW_2023'
+				'source-layer': '2024-eu-wl'
 			});
 
 		});
@@ -18434,7 +18419,7 @@
 	</script>
 
 	<div id="cookie-notice" role="dialog" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom"
-		aria-label="Cookie Notice" style="background-color: #052632;">
+		aria-label="Cookie Notice" style="background-color: #000;">
 		<div class="cookie-notice-container" style="color: #e4e4e4;">
 			<span id="cn-notice-text" class="cn-text-container">This site uses cookies. By continuing to browse the site
 				you are agreeing to our use of cookies. Review our privacy policy for more details.</span>
