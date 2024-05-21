@@ -16,7 +16,7 @@ p {
 }
 
 a {
-  color: #50859d;
+  color: #8aadbe;
   font-weight: bold;
   text-decoration-style: dotted;
   text-underline-offset: 0.2em;
@@ -441,6 +441,13 @@ h5 {
   margin: 5% auto auto;
   display: block;
 }
+
+#SUDAN-2 .light p {
+  width: 65%;
+  margin: auto;
+  text-align: left;
+}
+
 @media (max-width: 425px) {
   #INTRO .light {
     margin-top: 0 !important;

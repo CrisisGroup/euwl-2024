@@ -1,5 +1,5 @@
 var config = {
-  style: 'mapbox://styles/daltonwb/clwgjjuqd00pv01qo55nc2upg',
+  style: 'mapbox://styles/daltonwb/clwgo88rs02ch01nx88kkfgws',
   accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw&fresh=true',
   showMarkers: false,
   markerColor: '#3FB1CE',
@@ -191,16 +191,7 @@ var config = {
         }
       ],
       onChapterExit: [
-        {
-          layer: 'SUDAN',
-          duration: 2000,
-          opacity: 0
-        },
-        {
-          layer: 'sudan-fill',
-          duration: 2000,
-          opacity: 0
-        }
+
       ]
     },
     {
@@ -209,7 +200,7 @@ var config = {
       hidden: false,
       title: '',
       image: 'images/sudan.png',
-      description: 'Adipisicing velit deserunt mollit amet dolor. Voluptate eiusmod nostrud ex eu non. Culpa anim elit magna sint laborum. Aute consectetur duis fugiat tempor nulla eu adipisicing. Ea adipisicing laboris deserunt in ipsum officia.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#ukraine" target="_blank">&#8594; [Read more]</a>',
+      description: 'Adipisicing velit deserunt mollit amet dolor. Voluptate eiusmod nostrud ex eu non. Culpa anim elit magna sint laborum. Aute consectetur duis fugiat tempor nulla eu adipisicing. Ea adipisicing laboris deserunt in ipsum officia.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#ukraine" target="_blank">&#8594; [Read more]</a>' + '<br /><br /><br />',
       location: {
         center: [27.75505, 15.19553],
         zoom: 5,
@@ -225,10 +216,29 @@ var config = {
           layer: 'layer-with-pulsing-dot',
           duration: 2000,
           opacity: 0
+        },
+        {
+          layer: 'SUDAN',
+          duration: 2000,
+          opacity: 1
+        },
+        {
+          layer: 'sudan-fill',
+          duration: 2000,
+          opacity: .7
         }
       ],
       onChapterExit: [
-
+        {
+          layer: 'SUDAN',
+          duration: 2000,
+          opacity: 0
+        },
+        {
+          layer: 'sudan-fill',
+          duration: 2000,
+          opacity: 0
+        }
       ]
     },
     {
@@ -255,14 +265,34 @@ var config = {
           opacity: 0
         },
         {
-          layer: '9dash',
+          layer: '9dashline',
           duration: 2000,
           opacity: 1
+        },
+        {
+          layer: '2024-eu-wl',
+          duration: 2000,
+          opacity: 1
+        },
+        {
+          layer: 'php-fill',
+          duration: 2000,
+          opacity: .7
         }
       ],
       onChapterExit: [
         {
-          layer: '9dash',
+          layer: '9dashline',
+          duration: 2000,
+          opacity: 0
+        },
+        {
+          layer: '2024-eu-wl',
+          duration: 2000,
+          opacity: 0
+        },
+        {
+          layer: 'php-fill',
           duration: 2000,
           opacity: 0
         }
@@ -292,17 +322,12 @@ var config = {
           opacity: 0
         },
         {
-          layer: 'bos-her-boundaries',
+          layer: 'banja_luka_dot',
           duration: 2000,
           opacity: 1
         },
         {
-          layer: 'sarajevo',
-          duration: 2000,
-          opacity: 1
-        },
-        {
-          layer: 'city_dot_sarajevo',
+          layer: 'bos-herz',
           duration: 2000,
           opacity: 1
         },
@@ -312,7 +337,12 @@ var config = {
           opacity: 1
         },
         {
-          layer: 'city_dot_banja_luka',
+          layer: 'city_dot_sarajevo',
+          duration: 2000,
+          opacity: 1
+        },
+        {
+          layer: 'sarajevo',
           duration: 2000,
           opacity: 1
         },
@@ -324,17 +354,12 @@ var config = {
       ],
       onChapterExit: [
         {
-          layer: 'bos-her-boundaries',
+          layer: 'banja_luka_dot',
           duration: 2000,
           opacity: 0
         },
         {
-          layer: 'sarajevo',
-          duration: 2000,
-          opacity: 0
-        },
-        {
-          layer: 'city_dot_sarajevo',
+          layer: 'bos-herz',
           duration: 2000,
           opacity: 0
         },
@@ -344,7 +369,12 @@ var config = {
           opacity: 0
         },
         {
-          layer: 'city_dot_banja_luka',
+          layer: 'city_dot_sarajevo',
+          duration: 2000,
+          opacity: 0
+        },
+        {
+          layer: 'sarajevo',
           duration: 2000,
           opacity: 0
         },
