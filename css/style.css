@@ -385,6 +385,10 @@ h5 {
   }
 }
 
+.centered .light h3 {
+  color: #50859d;
+}
+
 .righty {
   width: 33vw;
   margin-left: 67vw;
