@@ -94,11 +94,15 @@
 
 	<div id="map"></div>
 
-	<div id='ukrlegend' class='legend blackshadow left-legend'>
-		<h4>In March 2022, a Ukrainian missile strike sunk a Russian military ship at the port of Berdansk, east of
-			Mariupol.</h4>
-		<h5><strong>Data</strong>: <a href='https://apps.sentinel-hub.com/eo-browser' target='_blank'>ESA | Sentinel
-				Hub</a></h5>
+	<div id='isrlegend' class='legend blackshadow left-legend'>
+		<ul class='legend-ul'>
+			<li>
+				<div><span style='background-color: #a4353b; border: solid 1px #fff;'></span>Most active strike area between Israel and Hizbollah
+				</div>
+			</li>
+			</ul>
+		<!-- <h5><strong>Data</strong>: <a href='https://apps.sentinel-hub.com/eo-browser' target='_blank'>ESA | Sentinel 
+				Hub</a></h5>-->
 	</div>
 
 	<div id='nklegend' class='legend blackshadow right-legend'>
@@ -859,30 +863,15 @@
 					var chapter = config.chapters.find(chap => chap.id === response.element.id);
 					var chapterid = chapter.id;
 
-					if (chapterid == "UKR") {
-						$("#ukrlegend").show("slow");
+					if (chapterid == "ISR") {
+						$("#isrlegend").show("slow");
 					} else
-						$("#ukrlegend").hide("fast");
+						$("#isrlegend").hide("fast");
 
-					if (chapterid == "NK") {
-						$("#nklegend").show("slow");
+					if (chapterid == "PHP") {
+						$("#phplegend").show("slow");
 					} else
-						$("#nklegend").hide("fast");
-
-					if (chapterid == "SAH") {
-						$("#malilegend").show("slow");
-					} else
-						$("#malilegend").hide("fast");
-
-					if (chapterid == "HT") {
-						$("#haitilegend").show("slow");
-					} else
-						$("#haitilegend").hide("fast");
-
-					if (chapterid == "TW") {
-						$("#twlegend").show("slow");
-					} else
-						$("#twlegend").hide("fast");
+						$("#phplegend").hide("fast");
 
 					response.element.classList.add('active');
 
@@ -1201,10 +1190,10 @@
 				you are agreeing to our use of cookies. Review our privacy policy for more details.</span>
 
 			<span id="cn-notice-buttons" class="cn-buttons-container"><a id="cn-accept-cookie" data-cookie-set="accept"
-					class="cn-set-cookie cn-button" aria-label="YES, I AGREE" style="background-color: #E87722">YES, I
+					class="cn-set-cookie cn-button" aria-label="YES, I AGREE" style="background-color: #165c7d">YES, I
 					AGREE</a>
 				<a href="https://www.crisisgroup.org/legal/privacy-policy" target="_blank" id="cn-more-info"
-					class="cn-more-info cn-button" aria-label="PRIVACY POLICY" style="background-color: #E87722">PRIVACY
+					class="cn-more-info cn-button" aria-label="PRIVACY POLICY" style="background-color: #165c7d">PRIVACY
 					POLICY</a>
 			</span>
 

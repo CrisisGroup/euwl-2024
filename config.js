@@ -157,10 +157,57 @@ var config = {
       ]
     },
     {
-      id: 'SUDAN',
-      alignment: 'full',
+      id: 'SUDAN-1',
+      alignment: 'left',
       hidden: false,
       title: 'SUDAN',
+      image: '',
+      description: 'Adipisicing velit deserunt mollit amet dolor. Voluptate eiusmod nostrud ex eu non. Culpa anim elit magna sint laborum. Aute consectetur duis fugiat tempor nulla eu adipisicing. Ea adipisicing laboris deserunt in ipsum officia.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#ukraine" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [27.75505, 15.19553],
+        zoom: 5,
+        pitch: 16,
+        bearing: 7.2,
+        speed: .6
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
+        {
+          layer: 'layer-with-pulsing-dot',
+          duration: 2000,
+          opacity: 0
+        },
+        {
+          layer: 'SUDAN',
+          duration: 2000,
+          opacity: 1
+        },
+        {
+          layer: 'sudan-fill',
+          duration: 2000,
+          opacity: .7
+        }
+      ],
+      onChapterExit: [
+        {
+          layer: 'SUDAN',
+          duration: 2000,
+          opacity: 0
+        },
+        {
+          layer: 'sudan-fill',
+          duration: 2000,
+          opacity: 0
+        }
+      ]
+    },
+    {
+      id: 'SUDAN-2',
+      alignment: 'full',
+      hidden: false,
+      title: '',
       image: 'images/sudan.png',
       description: 'Adipisicing velit deserunt mollit amet dolor. Voluptate eiusmod nostrud ex eu non. Culpa anim elit magna sint laborum. Aute consectetur duis fugiat tempor nulla eu adipisicing. Ea adipisicing laboris deserunt in ipsum officia.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#ukraine" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -356,7 +403,7 @@ var config = {
       },
       mapAnimation: 'flyTo',
       rotateAnimation: true,
-      callback: 'enableFreetime',
+      callback: '',
       onChapterEnter: [
         {
           layer: 'layer-with-pulsing-dot',

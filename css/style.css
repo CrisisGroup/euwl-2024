@@ -335,10 +335,11 @@ h5 {
   z-index: 5;
   background-color: #000;
   border: none;
+  border-radius: 0;
 }
 
 #footer h4 {
-  color: #E87722;
+  color: #8aadbe;
 }
 
 #features {
@@ -386,7 +387,7 @@ h5 {
 }
 
 .centered .light h3 {
-  color: #50859d;
+  color: #8aadbe;
 }
 
 .righty {
@@ -427,7 +428,7 @@ h5 {
   }
 }
 
-#SUDAN .light {
+#SUDAN-2 .light {
     color: #444;
     background-color: #000;
     margin: 0;
@@ -435,6 +436,11 @@ h5 {
     border-radius: 0;
 }
 
+#SUDAN-2 .light img {
+  width: 70%;
+  margin: 5% auto auto;
+  display: block;
+}
 @media (max-width: 425px) {
   #INTRO .light {
     margin-top: 0 !important;
@@ -621,7 +627,7 @@ ul {
   display: none;
   z-index: 1;
   font-family: "franklin-gothic-urw", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .left-legend {
