@@ -16,7 +16,7 @@ p {
 }
 
 a {
-  color: #E87722;
+  color: #50859d;
   font-weight: bold;
   text-decoration-style: dotted;
   text-underline-offset: 0.2em;
@@ -178,8 +178,8 @@ a:visited {
 }
 
 #freeExplore {
-  border: solid 2px #c0afa5;
-  color: #E1E0E0;
+  border: solid 2px #fff;
+  color: #fff;
   padding: 20px;
   width: 150px;
   text-align: center;
@@ -373,7 +373,7 @@ h5 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
-  background-color: #165c7d; /* Lighter gray for highlighting */
+  background-color: #e87722; /* Lighter gray for highlighting */
   color: #fff;
   display: inline-block; /* Ensures the background only covers the text */
   padding: 5px; /* Padding around the text */

@@ -10,7 +10,7 @@ var config = {
   title: '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>The 2024 EU Watch List</h1><p class="hedp">Lorem aliquip cillum aute cupidatat non enim Lorem. Officia labore fugiat dolore nulla id esse ex deserunt sit. Consequat sint id sint aliquip aliquip irure labore ad et aliquip velit. Pariatur deserunt consequat incididunt enim consequat deserunt aliquip proident consequat.</p>' + '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: '',
   byline: '',
-  footer: '<h4>Credits</h4><strong>Lead Contributors</strong>: Comfort Ero and Richard Atwood<br /><strong>Visualizations & Design</strong>: Paul Franz, Claire Boccon-Gibod and Michelle Malaney <br /><strong>Support</strong>: <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+  footer: '<h4>Credits</h4><strong>Lead Contributors</strong>: EU team<br /><strong>Visualizations & Design</strong>: Paul Franz, Claire Boccon-Gibod and Michelle Malaney <br /><strong>Support</strong>: <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
   chapters: [
     {
       id: 'INTRO',
@@ -18,7 +18,7 @@ var config = {
       hidden: false,
       title: 'Intro Text Here',
       image: '',
-      description: 'Consectetur qui amet deserunt quis consectetur cillum sit sunt deserunt dolor ea sunt. Duis occaecat nostrud dolore amet et in quis mollit dolore reprehenderit ut qui. Eu do consectetur culpa irure ad veniam culpa magna fugiat pariatur est mollit anim. Velit enim dolore magna ex nisi. Laborum id excepteur aute excepteur reprehenderit excepteur ullamco ipsum culpa ea ullamco. In ullamco ut voluptate minim ad eu nostrud.' + '<br /><br />' + '<strong>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right.' + '<br /><br />' + 'Or scroll down to continue. &#8595;</strong>',
+      description: 'Consectetur qui amet deserunt quis consectetur cillum sit sunt deserunt dolor ea sunt. Duis occaecat nostrud dolore amet et in quis mollit dolore reprehenderit ut qui. Eu do consectetur culpa irure ad veniam culpa magna fugiat pariatur est mollit anim. Velit enim dolore magna ex nisi. Laborum id excepteur aute excepteur reprehenderit excepteur ullamco ipsum culpa ea ullamco. In ullamco ut voluptate minim ad eu nostrud.' + '<br /><br />' + 'Scroll down to continue. &#8595;</strong>',
       location: {
         center: [-35.07977, 21.55533],
         zoom: 2.25,
@@ -52,7 +52,7 @@ var config = {
       id: 'ISR',
       alignment: 'left',
       hidden: false,
-      title: 'ISRAEL AND HEZBOLLAH',
+      title: 'ISRAEL AND HIZBOLLAH',
       image: '',
       description: 'Protests have rocked Iran for months. The regime has killed hundreds with its brutal response. Meanwhile, crisis over Iran’s nuclear program is brewing, with talks to revive the 2015 nuclear deal in a deep freeze.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#iran" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -60,7 +60,8 @@ var config = {
         zoom: 7.5,
         pitch: 0,
         bearing: 0,
-        speed: .7
+        speed: .7,
+        bbox: [[28.06034, 29.49946], [42.21180, 34.85895]]
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
@@ -104,7 +105,7 @@ var config = {
         {
           layer: 'israel-fill',
           duration: 2000,
-          opacity: 1
+          opacity: .7
         },
         {
           layer: 'palestine',
@@ -236,7 +237,7 @@ var config = {
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
-      callback: 'disableFreetime',
+      callback: '',
       onChapterEnter: [
         {
           layer: 'layer-with-pulsing-dot',
@@ -267,6 +268,11 @@ var config = {
           layer: 'city_dot_banja_luka',
           duration: 2000,
           opacity: 1
+        },
+        {
+          layer: 'bosnia-fill',
+          duration: 2000,
+          opacity: .7
         }
       ],
       onChapterExit: [
@@ -292,6 +298,11 @@ var config = {
         },
         {
           layer: 'city_dot_banja_luka',
+          duration: 2000,
+          opacity: 0
+        },
+        {
+          layer: 'bosnia-fill',
           duration: 2000,
           opacity: 0
         }
