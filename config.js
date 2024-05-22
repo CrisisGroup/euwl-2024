@@ -1,5 +1,5 @@
 var config = {
-  style: 'mapbox://styles/daltonwb/clwgo88rs02ch01nx88kkfgws',
+  style: 'mapbox://styles/daltonwb/clwhylhlg02a301ql8mw44mj8',
   accessToken: 'pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw&fresh=true',
   showMarkers: false,
   markerColor: '#3FB1CE',
@@ -10,7 +10,7 @@ var config = {
   title: '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>EU Watch List 2024 – Spring Update</h1><p class="hedp">Lorem aliquip cillum aute cupidatat non enim Lorem. Officia labore fugiat dolore nulla id esse ex deserunt sit. Consequat sint id sint aliquip aliquip irure labore ad et aliquip velit. Pariatur deserunt consequat incididunt enim consequat deserunt aliquip proident consequat.</p>' + '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: '',
   byline: '',
-  footer: '<h4>Credits</h4><strong>Lead Contributors</strong>: EU team<br /><strong>Visualizations & Design</strong>: Paul Franz, Claire Boccon-Gibod and Michelle Malaney <br /><strong>Support</strong>: <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+  footer: '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the EU Research and Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualizations & Design</strong>: Paul Franz, Claire Boccon-Gibod and Michelle Malaney <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
   chapters: [
     {
       id: 'INTRO',
@@ -88,6 +88,21 @@ var config = {
           opacity: 1
         },
         {
+          layer: 'LEBANON copy',
+          duration: 2000,
+          opacity: 1
+        },
+        {
+          layer: 'beirut',
+          duration: 2000,
+          opacity: 1
+        },
+        {
+          layer: 'beirut_label',
+          duration: 2000,
+          opacity: 1
+        },
+        {
           layer: 'damascus',
           duration: 2000,
           opacity: 1
@@ -126,6 +141,21 @@ var config = {
         },
         {
           layer: 'LEBANON',
+          duration: 2000,
+          opacity: 0
+        },
+        {
+          layer: 'LEBANON copy',
+          duration: 2000,
+          opacity: 0
+        },
+        {
+          layer: 'beirut',
+          duration: 2000,
+          opacity: 0
+        },
+        {
+          layer: 'beirut_label',
           duration: 2000,
           opacity: 0
         },
@@ -350,6 +380,11 @@ var config = {
           layer: 'bosnia-fill',
           duration: 2000,
           opacity: .7
+        },
+        {
+          layer: 'republika_Srpska',
+          duration: 2000,
+          opacity: 1
         }
       ],
       onChapterExit: [
@@ -380,6 +415,11 @@ var config = {
         },
         {
           layer: 'bosnia-fill',
+          duration: 2000,
+          opacity: 0
+        },
+        {
+          layer: 'republika_Srpska',
           duration: 2000,
           opacity: 0
         }

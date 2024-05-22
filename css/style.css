@@ -336,6 +336,7 @@ h5 {
   background-color: #000;
   border: none;
   border-radius: 0;
+  margin-bottom: 0;
 }
 
 #footer h4 {
@@ -649,6 +650,18 @@ ul {
   .legend {
     z-index: 0;
   }
+}
+
+#isrlegend {
+  color: black;
+  text-shadow: none;
+  font-size: 1.25em;
+}
+
+#phplegend {
+  color: #fff;
+  text-shadow: none;
+  font-size: 1.25em;
 }
 
 .blackshadow {
