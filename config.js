@@ -18,7 +18,7 @@ var config = {
       hidden: false,
       title: 'Intro Text Here',
       image: '',
-      description: 'Consectetur qui amet deserunt quis consectetur cillum sit sunt deserunt dolor ea sunt. Duis occaecat nostrud dolore amet et in quis mollit dolore reprehenderit ut qui. Eu do consectetur culpa irure ad veniam culpa magna fugiat pariatur est mollit anim. Velit enim dolore magna ex nisi. Laborum id excepteur aute excepteur reprehenderit excepteur ullamco ipsum culpa ea ullamco. In ullamco ut voluptate minim ad eu nostrud.' + '<br /><br />' + 'Scroll down to continue. &#8595;</strong>',
+      description: 'Each year, Crisis Group publishes two updates to the EU Watch List that identify where the EU and its member states can help enhance prospects for peace. This update includes entries on the Bosnia, Haiti, Hizbollah/Israel, Philippines/South China Sea, Sudan.' + '<br /><br />' + 'Scroll down to continue. &#8595;</strong>',
       location: {
         center: [-35.07977, 21.55533],
         zoom: 2.25,
@@ -54,7 +54,7 @@ var config = {
       hidden: false,
       title: 'ISRAEL AND HIZBOLLAH',
       image: '',
-      description: 'Protests have rocked Iran for months. The regime has killed hundreds with its brutal response. Meanwhile, crisis over Iran’s nuclear program is brewing, with talks to revive the 2015 nuclear deal in a deep freeze.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#iran" target="_blank">&#8594; [Read more]</a>',
+      description: 'Adipisicing velit deserunt mollit amet dolor. Voluptate eiusmod nostrud ex eu non. Culpa anim elit magna sint laborum. Aute consectetur duis fugiat tempor nulla eu adipisicing. Ea adipisicing laboris deserunt in ipsum officia.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#israel" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [35.08351, 32.23019],
         zoom: 7.5,
@@ -162,7 +162,7 @@ var config = {
       hidden: false,
       title: 'SUDAN',
       image: '',
-      description: 'Adipisicing velit deserunt mollit amet dolor. Voluptate eiusmod nostrud ex eu non. Culpa anim elit magna sint laborum. Aute consectetur duis fugiat tempor nulla eu adipisicing. Ea adipisicing laboris deserunt in ipsum officia.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#ukraine" target="_blank">&#8594; [Read more]</a>',
+      description: 'Adipisicing velit deserunt mollit amet dolor. Voluptate eiusmod nostrud ex eu non. Culpa anim elit magna sint laborum. Aute consectetur duis fugiat tempor nulla eu adipisicing. Ea adipisicing laboris deserunt in ipsum officia.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#sudan" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [27.75505, 15.19553],
         zoom: 5,
@@ -200,7 +200,7 @@ var config = {
       hidden: false,
       title: '',
       image: 'images/sudan.png',
-      description: 'Adipisicing velit deserunt mollit amet dolor. Voluptate eiusmod nostrud ex eu non. Culpa anim elit magna sint laborum. Aute consectetur duis fugiat tempor nulla eu adipisicing. Ea adipisicing laboris deserunt in ipsum officia.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#ukraine" target="_blank">&#8594; [Read more]</a>' + '<br /><br /><br />',
+      description: 'Adipisicing velit deserunt mollit amet dolor. Voluptate eiusmod nostrud ex eu non. Culpa anim elit magna sint laborum. Aute consectetur duis fugiat tempor nulla eu adipisicing. Ea adipisicing laboris deserunt in ipsum officia.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#sudan" target="_blank">&#8594; [Read more]</a>' + '<br /><br /><br />',
       location: {
         center: [27.75505, 15.19553],
         zoom: 5,
@@ -245,9 +245,9 @@ var config = {
       id: 'PHP',
       alignment: 'left',
       hidden: false,
-      title: 'PHILIPPINES AND THE SOUTH CHINA SEA',
+      title: 'PHILIPPINES/SOUTH CHINA SEA',
       image: '',
-      description: 'Aliquip culpa nisi duis dolor adipisicing mollit sit. Eu in incididunt nisi enim adipisicing velit. Nostrud duis consectetur cupidatat ea cillum irure est aliqua reprehenderit tempor.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#armenia" target="_blank">&#8594; [Read more]</a>',
+      description: 'Aliquip culpa nisi duis dolor adipisicing mollit sit. Eu in incididunt nisi enim adipisicing velit. Nostrud duis consectetur cupidatat ea cillum irure est aliqua reprehenderit tempor.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#philippines" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [115.78357, 10.18953],
         zoom: 4.45,
@@ -304,7 +304,7 @@ var config = {
       hidden: false,
       title: 'BOSNIA AND HERZEGOVINA',
       image: '',
-      description: 'Dolore ipsum quis nulla est ipsum eiusmod pariatur ipsum excepteur voluptate tempor aute do excepteur. Irure id ullamco culpa enim aliqua commodo qui. Sint Lorem adipisicing commodo quis sint veniam ad incididunt aute. Exercitation do tempor esse enim quis deserunt dolor elit ex. Magna elit incididunt do in mollit commodo. Minim dolor in sint duis anim.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#ethiopia" target="_blank">&#8594; [Read more]</a>',
+      description: 'Dolore ipsum quis nulla est ipsum eiusmod pariatur ipsum excepteur voluptate tempor aute do excepteur. Irure id ullamco culpa enim aliqua commodo qui. Sint Lorem adipisicing commodo quis sint veniam ad incididunt aute. Exercitation do tempor esse enim quis deserunt dolor elit ex. Magna elit incididunt do in mollit commodo. Minim dolor in sint duis anim.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#bosnia" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [17.30775, 44.12183],
         zoom: 7,
@@ -391,7 +391,7 @@ var config = {
       hidden: false,
       title: 'HAITI',
       image: '',
-      description: 'Ullamco officia cillum mollit incididunt. Voluptate deserunt nisi veniam mollit enim veniam veniam consequat Lorem laborum commodo deserunt dolor. Laborum ea pariatur amet qui. Et sunt tempor sunt do tempor do sit ut commodo aliqua consequat commodo occaecat.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#yemen" target="_blank">&#8594; [Read more]</a>',
+      description: 'Ullamco officia cillum mollit incididunt. Voluptate deserunt nisi veniam mollit enim veniam veniam consequat Lorem laborum commodo deserunt dolor. Laborum ea pariatur amet qui. Et sunt tempor sunt do tempor do sit ut commodo aliqua consequat commodo occaecat.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#haiti" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-72.34721, 18.55458],
         zoom: 12.8,
@@ -423,7 +423,7 @@ var config = {
       hidden: false,
       title: 'POLICY RECOMMENDATIONS',
       image: '',
-      description: 'Quis velit magna occaecat qui ullamco deserunt dolore elit Lorem velit adipisicing elit commodo proident. Qui mollit dolor non ullamco Lorem duis qui tempor sint anim ullamco laboris. Eu velit cupidatat sint ad laboris deserunt pariatur. Ex occaecat do labore ullamco velit sit sunt incididunt. Culpa exercitation aliqua cupidatat ipsum.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#drc" target="_blank">&#8594; [Read more]</a>',
+      description: 'Quis velit magna occaecat qui ullamco deserunt dolore elit Lorem velit adipisicing elit commodo proident. Qui mollit dolor non ullamco Lorem duis qui tempor sint anim ullamco laboris. Eu velit cupidatat sint ad laboris deserunt pariatur. Ex occaecat do labore ullamco velit sit sunt incididunt. Culpa exercitation aliqua cupidatat ipsum.',
       location: {
         center: [-26.170512, 23.867211],
         zoom: 2,
