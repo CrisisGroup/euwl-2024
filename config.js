@@ -52,7 +52,7 @@ var config = {
       id: 'ISR',
       alignment: 'left',
       hidden: false,
-      title: 'ISRAEL AND HIZBOLLAH',
+      title: 'ISRAEL/HIZBOLLAH',
       image: '',
       description: 'Adipisicing velit deserunt mollit amet dolor. Voluptate eiusmod nostrud ex eu non. Culpa anim elit magna sint laborum. Aute consectetur duis fugiat tempor nulla eu adipisicing. Ea adipisicing laboris deserunt in ipsum officia.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#israel" target="_blank">&#8594; [Read more]</a>',
       location: {
