@@ -7,7 +7,7 @@ var config = {
   theme: 'light',
   projection: 'globe',
   use3dTerrain: false,
-  title: '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>The 2024 EU Watch List</h1><p class="hedp">Lorem aliquip cillum aute cupidatat non enim Lorem. Officia labore fugiat dolore nulla id esse ex deserunt sit. Consequat sint id sint aliquip aliquip irure labore ad et aliquip velit. Pariatur deserunt consequat incididunt enim consequat deserunt aliquip proident consequat.</p>' + '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
+  title: '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>EU Watch List 2024 – Spring Update</h1><p class="hedp">Lorem aliquip cillum aute cupidatat non enim Lorem. Officia labore fugiat dolore nulla id esse ex deserunt sit. Consequat sint id sint aliquip aliquip irure labore ad et aliquip velit. Pariatur deserunt consequat incididunt enim consequat deserunt aliquip proident consequat.</p>' + '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: '',
   byline: '',
   footer: '<h4>Credits</h4><strong>Lead Contributors</strong>: EU team<br /><strong>Visualizations & Design</strong>: Paul Franz, Claire Boccon-Gibod and Michelle Malaney <br /><strong>Support</strong>: <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
@@ -245,7 +245,7 @@ var config = {
       id: 'PHP',
       alignment: 'left',
       hidden: false,
-      title: 'PHILIPPINES',
+      title: 'PHILIPPINES AND THE SOUTH CHINA SEA',
       image: '',
       description: 'Aliquip culpa nisi duis dolor adipisicing mollit sit. Eu in incididunt nisi enim adipisicing velit. Nostrud duis consectetur cupidatat ea cillum irure est aliqua reprehenderit tempor.' + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2023#armenia" target="_blank">&#8594; [Read more]</a>',
       location: {
