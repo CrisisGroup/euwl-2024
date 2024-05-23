@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/clwj3490k03hn01qg95sy1cv5",
+  style: "mapbox://styles/daltonwb/clwj688hq036001nxd6jcg8x3",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw&fresh=true",
   showMarkers: false,
@@ -9,7 +9,7 @@ var config = {
   projection: "globe",
   use3dTerrain: false,
   title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>EU Watch List 2024 – Spring Update</h1><p class="hedp">Each year, Crisis Group publishes two updates to the EU Watch List that identify where the EU and its member states can help enhance prospects for peace.</p><p class="hedp">This update includes entries on Bosnia and Herzegovina, Haiti, Sudan, the South China Sea and Hizbollah-Israel tensions.</p>' +
+    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>EU Watch List 2024 – Spring Update</h1><p class="hedp">Each year, Crisis Group publishes two updates to the EU Watch List that identify where the EU and its member states can help enhance prospects for peace. This update includes entries on Bosnia and Herzegovina, Haiti, Sudan, the South China Sea and Hizbollah-Israel tensions.</p>' +
     '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: "",
   byline: "",
@@ -123,7 +123,7 @@ var config = {
         {
           layer: "tel-aviv_label",
           duration: 2000,
-          opacity: .8,
+          opacity: 0.8,
         },
         {
           layer: "damascus",
@@ -324,7 +324,7 @@ var config = {
       hidden: false,
       title: "",
       image: "images/sudan.png",
-      description: '<br /><br /><br />',
+      description: "<br /><br /><br />",
       location: {
         center: [27.75505, 15.19553],
         zoom: 5,
@@ -591,24 +591,24 @@ var config = {
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#haiti" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [-72.316546, 18.549398],
-        zoom: 13.5,
-        pitch: 8.3,
+        center: [-72.74457, 18.92369],
+        zoom: 8.5,
+        pitch: 0,
         bearing: 0,
-        speed: 0.5,
+        speed: 0.6,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
         {
-          layer: "satellite",
+          layer: "haiti-label",
           duration: 2000,
           opacity: 1,
         },
         {
-          layer: "HAITI",
-          duration: 1000,
+          layer: "satellite",
+          duration: 2000,
           opacity: 1,
         },
         {
@@ -616,10 +616,15 @@ var config = {
           duration: 1000,
           opacity: 1,
         },
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
       onChapterExit: [
         {
-          layer: "HAITI",
+          layer: "haiti-label",
           duration: 1000,
           opacity: 0,
         },
@@ -631,19 +636,49 @@ var config = {
       ],
     },
     {
+      id: "HAITI-1",
+      alignment: "left",
+      hidden: false,
+      title: "",
+      image: "",
+      description: "",
+      location: {
+        center: [-72.283324, 18.581603],
+        zoom: 16,
+        pitch: 0,
+        bearing: 0,
+        speed: 0.7,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "satellite",
+          duration: 2000,
+          opacity: .8,
+        },
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
+      onChapterExit: [],
+    },
+    {
       id: "HAITI-2",
       alignment: "left",
       hidden: false,
       title: "",
       image: "",
-      description:
-        "",
+      description: "",
       location: {
         center: [-72.283324, 18.581603],
         zoom: 16.5,
         pitch: 0,
         bearing: 0,
-        speed: 0.7,
+        speed: 0.3,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,

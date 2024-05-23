@@ -454,7 +454,7 @@ h5 {
   text-align: left;
 }
 
-#HAITI-2 .light {
+#HAITI-1, #HAITI-2 .light {
   opacity: 0;
 }
 
@@ -667,9 +667,8 @@ ul {
   font-size: 1.25em;
 }
 
-#phplegend, #haitilegend {
+#phplegend, #haitilegend, #haitilegend-a {
   color: #fff;
-  text-shadow: none;
   font-size: 1.25em;
   max-width: 30em;
 }
@@ -767,6 +766,11 @@ ul.legend-ul li {
 .mapboxgl-ctrl-top-right {
   top: 1% !important;
   right: 1% !important;
+}
+
+.mapboxgl-ctrl-bottom-right {
+  bottom: 0;
+  right: 20px !important;
 }
 
 /* VIDEO CSS */

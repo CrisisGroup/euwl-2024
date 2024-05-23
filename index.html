@@ -4,7 +4,7 @@
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<link rel="icon" type="image/x-icon"
 		href="https://www.crisisgroup.org/visual-explainers/eu-watch-list-spring-2024/images/favicon.ico">
-		<link rel="canonical" href="https://www.crisisgroup.org/visual-explainers/eu-watch-list-spring-2024/" />
+	<link rel="canonical" href="https://www.crisisgroup.org/visual-explainers/eu-watch-list-spring-2024/" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="[Visual] EU Watch List 2024 – Spring Update | International Crisis Group" />
@@ -115,10 +115,20 @@
 		<br />
 	</div>
 
+	<div id='haitilegend-a' class='legend blackshadow left-legend'>
+		<ul class='legend-ul'>
+			<li>
+				<div>The Haitian government has spent more than $2 million dollars securing Toussaint Louverture International Airport in Port-au-Prince. Since April 2024, security forces have set up base camps and razed hundreds of buildings, including homes around the airport.
+				</div>
+			</li>
+		</ul>
+		<br />
+	</div>
+
 	<div id='haitilegend' class='legend blackshadow left-legend'>
 		<ul class='legend-ul'>
 			<li>
-				<div>The Haitian government has spent more than $2 million dollars securing its international airport in Port-au-Prince. A satellite image taken in May by Planet Labs PBC shows the aftermath of a bulldozing operation that razed more than 150 structures.
+				<div>A satellite image taken in May by Planet Labs PBC shows the aftermath of a bulldozing operation in May.
 				</div>
 			</li>
 		</ul>
@@ -282,8 +292,14 @@
 			pitch: config.chapters[0].location.pitch,
 			interactive: false,
 			transformRequest: transformRequest,
-			projection: config.projection
+			projection: config.projection,
+			attributionControl: false
 		});
+
+		map.addControl(new mapboxgl.AttributionControl({
+			compact: true,
+			customAttribution: 'Data: Crisis Group research, OSM, Copernicus. | Map by Paul Franz and Claire Boccon-Gibod'
+		}));
 
 		// Create a inset map if enabled in config.js
 		if (config.inset) {
@@ -842,7 +858,13 @@
 					} else
 						$("#phplegend").hide("fast");
 
-						if (chapterid == "HAITI-2") {
+						
+					if (chapterid == "HAITI-1") {
+						$("#haitilegend-a").show("slow");
+					} else
+						$("#haitilegend-a").hide("fast");
+
+					if (chapterid == "HAITI-2") {
 						$("#haitilegend").show("slow");
 					} else
 						$("#haitilegend").hide("fast");
@@ -1014,10 +1036,6 @@
 				});
 			});
 		}
-
-
-		// Regular map rotateAnimation
-
 
 		// Setup preloader animations
 
