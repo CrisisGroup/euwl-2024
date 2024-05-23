@@ -587,7 +587,7 @@ var config = {
       title: "HAITI",
       image: "",
       description:
-        "The EU and member states should:<ul><li>Provide support to Kenya-led multinational security mission; </li><li>Impose sanctions on gang-affiliated individuals and entities; </li><li>Assist the Haitian state with DDR programs; </li><li>Provide support to Kenya-led multinational security mission; </li><li>Impose sanctions on gang-affiliated individuals and entities; </li><li>Assist the Haitian state with DDR programs; </li><li>Support the transitional government to rebuild democratic state and convene elections; </li><li>Increase humanitarian aid.</li></ul>" +
+        "The EU and member states should:<ul><li>Provide support to Kenya-led multinational security mission; </li><li>Impose sanctions on gang sponsors; </li><li>Assist the Haitian state with DDR programs; </li><li>Support the transitional government to rebuild democratic state and convene elections; </li><li>Increase humanitarian aid.</li></ul>" +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#haiti" target="_blank">&#8594; [Read more]</a>',
       location: {
