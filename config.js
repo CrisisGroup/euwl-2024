@@ -1,7 +1,7 @@
 var config = {
-  style: "mapbox://styles/daltonwb/clwj6b840000u01p224nm8xiu",
+  style: "mapbox://styles/daltonwb/clwj9hw5f00jw01qxhijy3f9f",
   accessToken:
-    "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw&fresh=true",
+    "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
   markerColor: "#3FB1CE",
   inset: false,
@@ -656,7 +656,7 @@ var config = {
         {
           layer: "satellite",
           duration: 2000,
-          opacity: .8,
+          opacity: 1,
         },
         {
           layer: "layer-with-pulsing-dot",

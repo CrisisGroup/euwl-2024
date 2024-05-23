@@ -115,6 +115,16 @@
 		<br />
 	</div>
 
+	<div id='bosnia-legend' class='legend blackshadow left-legend'>
+		<ul class='legend-ul'>
+			<li>
+				<div><span style='background-color: #a4343A; border: solid 1px #fff;'></span>Republika Srpska
+				</div>
+			</li>
+		</ul>
+		<br />
+	</div>
+
 	<div id='haitilegend-a' class='legend blackshadow left-legend'>
 		<ul class='legend-ul'>
 			<li>
@@ -128,7 +138,7 @@
 	<div id='haitilegend' class='legend blackshadow left-legend'>
 		<ul class='legend-ul'>
 			<li>
-				<div>A satellite image taken in May by Planet Labs PBC shows the aftermath of a bulldozing operation in May.
+				<div>A satellite image taken in May 2024 by Planet Labs PBC shows the aftermath of a bulldozing operation north of the main airport runway.
 				</div>
 			</li>
 		</ul>
@@ -858,6 +868,10 @@
 					} else
 						$("#phplegend").hide("fast");
 
+						if (chapterid == "BOS") {
+						$("#bosnia-legend").show("slow");
+					} else
+						$("#bosnia-legend").hide("fast");
 						
 					if (chapterid == "HAITI-1") {
 						$("#haitilegend-a").show("slow");

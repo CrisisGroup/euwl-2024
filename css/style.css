@@ -379,7 +379,7 @@ h5 {
   background-color: #e87722; /* Lighter gray for highlighting */
   color: #fff;
   display: inline-block; /* Ensures the background only covers the text */
-  padding: 5px; /* Padding around the text */
+  padding: 5px 8px 5px 8px;
 }
 
 @media (max-width: 750px) {
@@ -667,10 +667,29 @@ ul {
   font-size: 1.25em;
 }
 
-#phplegend, #haitilegend, #haitilegend-a {
+#bosnia-legend {
+  color: black;
+  text-shadow: none;
+  font-size: 1.25em;
+  top: 10px;
+  bottom: none;
+}
+
+#phplegend, #haitilegend {
   color: #fff;
   font-size: 1.25em;
   max-width: 30em;
+}
+
+#haitilegend-a {
+    color: #fff;
+    font-size: 1.25em;
+    max-width: 30em;
+    box-shadow: 0 0 9px 19px rgba(0, 0, 0, .2);
+    background: rgba(0, 0, 0, .4);
+    right: 40px;
+    padding-right: 0;
+    padding-left: 25px;
 }
 
 .blackshadow {
