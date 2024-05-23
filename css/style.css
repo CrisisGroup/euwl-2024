@@ -337,6 +337,7 @@ h5 {
   border: none;
   border-radius: 0;
   margin-bottom: 0;
+  margin-left: 0;
 }
 
 #footer h4 {
@@ -421,6 +422,10 @@ h5 {
 
 #INTRO .light {
   margin-top: 30%;
+}
+
+#END .light {
+  opacity: 0;
 }
 
 @media (max-width: 425px) {
