@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/clwijjhs801fq01qo7aqu5mx8",
+  style: "mapbox://styles/daltonwb/clwj3490k03hn01qg95sy1cv5",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw&fresh=true",
   showMarkers: false,
@@ -161,12 +161,27 @@ var config = {
           opacity: 1,
         },
         {
+          layer: "golan-label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "SUDAN",
           duration: 2000,
           opacity: 0,
         },
         {
           layer: "sudan-fill",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "el-fasher",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "el-fasher_label",
           duration: 2000,
           opacity: 0,
         },
@@ -243,6 +258,11 @@ var config = {
           opacity: 0,
         },
         {
+          layer: "golan-label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
           layer: "palestine",
           duration: 2000,
           opacity: 0,
@@ -277,6 +297,16 @@ var config = {
         },
         {
           layer: "SUDAN",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "el-fasher",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "el-fasher_label",
           duration: 2000,
           opacity: 1,
         },
@@ -321,6 +351,16 @@ var config = {
           duration: 2000,
           opacity: 0.7,
         },
+        {
+          layer: "el-fasher",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "el-fasher_label",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
         {
@@ -330,6 +370,16 @@ var config = {
         },
         {
           layer: "sudan-fill",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "el-fasher",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "el-fasher_label",
           duration: 2000,
           opacity: 0,
         },
