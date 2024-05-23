@@ -482,7 +482,7 @@ var config = {
       title: "BOSNIA AND HERZEGOVINA",
       image: "",
       description:
-        "The EU and member states should:<ul><li>Press for a new election law;</li><li>Coordinate with U.S. and Quint to guide High Representative’s actions; </li><li>Help Bosnian leaders settle ownership of state and defence property, the last condition for the High Representative before their office can be closed; </li><li>Make clear that secession would compromise EU accession.</li></ul>" +
+        "The EU and member states should:<ul><li>Work toward a balanced deal and press for a new election law;</li><li>Coordinate with the U.S. and Quint countries to guide the High Representative’s actions;</li><li>Help Bosnian leaders settle ownership of state- and military-owned property, the last condition before closing the High Representative’s office;</li><li>Use forthcoming EU membership talks for dialogue about re-evaluating the Dayton accords framework;</li><li>Make clear that secession would compromise EU accession.</li></ul>" +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#bosnia" target="_blank">&#8594; [Read more]</a>',
       location: {
