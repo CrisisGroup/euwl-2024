@@ -115,6 +115,16 @@
 		<br />
 	</div>
 
+	<div id='haitilegend' class='legend blackshadow left-legend'>
+		<ul class='legend-ul'>
+			<li>
+				<div>The Haitian government has spent more than $2 million dollars securing its international airport in Port-au-Prince. A satellite image taken in May by Planet Labs PBC shows the aftermath of a bulldozing operation that razed more than 150 structures.
+				</div>
+			</li>
+		</ul>
+		<br />
+	</div>
+
 	<div id="mapInset"></div>
 
 	<div id="loader">
@@ -831,6 +841,12 @@
 						$("#phplegend").show("slow");
 					} else
 						$("#phplegend").hide("fast");
+
+						if (chapterid == "HAITI-2") {
+						$("#haitilegend").show("slow");
+					} else
+						$("#haitilegend").hide("fast");
+
 
 					response.element.classList.add('active');
 

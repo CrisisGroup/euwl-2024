@@ -454,6 +454,10 @@ h5 {
   text-align: left;
 }
 
+#HAITI-2 .light {
+  opacity: 0;
+}
+
 @media (max-width: 425px) {
   #INTRO .light {
     margin-top: 0 !important;
@@ -634,7 +638,7 @@ ul {
 .legend {
   border-radius: 5px;
   position: fixed;
-  bottom: 30px;
+  bottom: 70px;
   color: #E4E4E4;
   padding: 10px 50px;
   display: none;
@@ -663,10 +667,11 @@ ul {
   font-size: 1.25em;
 }
 
-#phplegend {
+#phplegend, #haitilegend {
   color: #fff;
   text-shadow: none;
   font-size: 1.25em;
+  max-width: 30em;
 }
 
 .blackshadow {

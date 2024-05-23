@@ -9,7 +9,7 @@ var config = {
   projection: "globe",
   use3dTerrain: false,
   title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>EU Watch List 2024 – Spring Update</h1><p class="hedp">Lorem aliquip cillum aute cupidatat non enim Lorem. Officia labore fugiat dolore nulla id esse ex deserunt sit. Consequat sint id sint aliquip aliquip irure labore ad et aliquip velit. Pariatur deserunt consequat incididunt enim consequat deserunt aliquip proident consequat.</p>' +
+    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>EU Watch List 2024 – Spring Update</h1><p class="hedp">Each year, Crisis Group publishes two updates to the EU Watch List that identify where the EU and its member states can help enhance prospects for peace.</p><p class="hedp">This update includes entries on Bosnia and Herzegovina, Haiti, Sudan, the South China Sea and Hizbollah-Israel tensions.</p>' +
     '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: "",
   byline: "",
@@ -20,12 +20,12 @@ var config = {
       id: "INTRO",
       alignment: "center",
       hidden: false,
-      title: "Intro Text Here",
+      title: "INTRODUCTION",
       image: "",
       description:
-        "Each year, Crisis Group publishes two updates to the EU Watch List that identify where the EU and its member states can help enhance prospects for peace. This update includes entries on the Bosnia, Haiti, Hizbollah/Israel, Philippines/South China Sea, Sudan." +
+        "Et dolore nostrud ex dolore adipisicing duis fugiat magna aliqua. Ipsum irure tempor officia tempor nostrud magna ex tempor sint laborum aliqua ullamco. Cillum fugiat officia non deserunt qui cupidatat. Irure magna ut veniam qui enim veniam est ipsum excepteur ipsum amet. Eu incididunt irure id sit dolore excepteur. Lorem incididunt do consequat veniam deserunt et reprehenderit fugiat sint nulla quis. Et in nulla aliqua eu anim cupidatat ea labore." +
         "<br /><br />" +
-        "Scroll down to continue. &#8595;</strong>",
+        "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
         center: [-35.07977, 21.55533],
         zoom: 2.25,
@@ -59,10 +59,10 @@ var config = {
       id: "ISR",
       alignment: "left",
       hidden: false,
-      title: "ISRAEL/HIZBOLLAH",
+      title: "HIZBOLLAH/ISRAEL",
       image: "",
       description:
-        "EU and member states should:<ul><li>Better use its leverage to press for permanent ceasefire in Gaza and the release of all hostages there; </li><li>Support French and U.S. mediation efforts in South Lebanon;</li><liPress Israel to pursue security through diplomatic means;</li><li>Prepare material aid for Lebanon-Israel border security and step up support to UNIFIL;</li><li>Prepare for potential humanitarian fallout and displacement an escalation might cause.</li></ul>" +
+        "The EU and member states should:<ul><li>Better use its leverage to press for permanent ceasefire in Gaza and the release of all hostages there; </li><li>Support French and U.S. mediation efforts in South Lebanon;</li><liPress Israel to pursue security through diplomatic means;</li><li>Prepare material aid for Lebanon-Israel border security and step up support to UNIFIL;</li><li>Prepare for potential humanitarian fallout and displacement an escalation might cause.</li></ul>" +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#israel" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -123,7 +123,7 @@ var config = {
         {
           layer: "tel-aviv_label",
           duration: 2000,
-          opacity: 1,
+          opacity: .8,
         },
         {
           layer: "damascus",
@@ -256,7 +256,7 @@ var config = {
       title: "SUDAN",
       image: "",
       description:
-        "<ul><li>Support the Jeddah ceasefire talks;</li><li>Help align peace efforts of regional and international key players;</li><li>Continue to convene Sudanese political and civil figures, in an effort to support a future political process;</li><li>Fulfil humanitarian aid pledges and help ensure unhindered access to all Sudanese; </li><li>Keep Sudan high on the agenda.</li></ul>" +
+        "The EU and member states should:<ul><li>Support the Jeddah ceasefire talks;</li><li>Help align peace efforts of regional and international key players;</li><li>Continue to convene Sudanese political and civil figures, in an effort to support a future political process;</li><li>Fulfil humanitarian aid pledges and help ensure unhindered access to all Sudanese; </li><li>Keep Sudan high on the agenda.</li></ul>" +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#sudan" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -294,11 +294,7 @@ var config = {
       hidden: false,
       title: "",
       image: "images/sudan.png",
-      description:
-        "Adipisicing velit deserunt mollit amet dolor. Voluptate eiusmod nostrud ex eu non. Culpa anim elit magna sint laborum. Aute consectetur duis fugiat tempor nulla eu adipisicing. Ea adipisicing laboris deserunt in ipsum officia." +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#sudan" target="_blank">&#8594; [Read more]</a>' +
-        "<br /><br /><br />",
+      description: '<br /><br /><br />',
       location: {
         center: [27.75505, 15.19553],
         zoom: 5,
@@ -346,7 +342,7 @@ var config = {
       title: "PHILIPPINES/SOUTH CHINA SEA",
       image: "",
       description:
-        "<ul><li>Seek diplomatic engagement with Beijing and Manila to keep tensions in check and expand diplomatic presence in South East Asia;</li><li>Promote respect for international maritime law as a source of neutral rules for dispute resolution and conflict prevention;</li><li>Strengthen cooperation with Philippines coast-guard in areas such as environmental protection, safety and search and rescue.</li></ul>" +
+        "The EU and member states should:<ul><li>Seek diplomatic engagement with Beijing and Manila to keep tensions in check and expand diplomatic presence in South East Asia;</li><li>Promote respect for international maritime law as a source of neutral rules for dispute resolution and conflict prevention;</li><li>Strengthen cooperation with Philippines coast-guard in areas such as environmental protection, safety and search and rescue.</li></ul>" +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#philippines" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -383,12 +379,12 @@ var config = {
         {
           layer: "satellite",
           duration: 2000,
-          opacity: .8,
+          opacity: 0.8,
         },
         {
           layer: "bathymetry",
           duration: 2000,
-          opacity: .15,
+          opacity: 0.15,
         },
         {
           layer: "water",
@@ -436,7 +432,7 @@ var config = {
       title: "BOSNIA AND HERZEGOVINA",
       image: "",
       description:
-        "<ul><li>Press for a new election law;</li><li>Coordinate with U.S. and Quint to guide High Representative’s actions; </li><li>Help Bosnian leaders settle ownership of state and defence property, the last condition for the High Representative before their office can be closed; </li><li>Make clear that secession would compromise EU accession.</li></ul>" +
+        "The EU and member states should:<ul><li>Press for a new election law;</li><li>Coordinate with U.S. and Quint to guide High Representative’s actions; </li><li>Help Bosnian leaders settle ownership of state and defence property, the last condition for the High Representative before their office can be closed; </li><li>Make clear that secession would compromise EU accession.</li></ul>" +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#bosnia" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -569,7 +565,7 @@ var config = {
           layer: "pap",
           duration: 1000,
           opacity: 1,
-        }
+        },
       ],
       onChapterExit: [
         {
@@ -581,7 +577,7 @@ var config = {
           layer: "pap",
           duration: 4000,
           opacity: 0,
-        }
+        },
       ],
     },
     {
@@ -591,7 +587,7 @@ var config = {
       title: "",
       image: "",
       description:
-        "The Haitian government has spent more than $2 million dollars securing its international airport in Port-au-Prince. A satellite image taken in May by Planet Labs PBC shows the aftermath of a bulldozing operation that razed more than 150 structures.",
+        "",
       location: {
         center: [-72.283324, 18.581603],
         zoom: 16.5,
@@ -643,14 +639,13 @@ var config = {
       hidden: false,
       title: "",
       image: "",
-      description:
-        "",
+      description: "",
       location: {
         center: [-35.07977, 21.55533],
         zoom: 2.25,
         pitch: 16,
         bearing: 7.2,
-        speed: 0.4
+        speed: 0.4,
       },
       mapAnimation: "flyTo",
       rotateAnimation: true,
