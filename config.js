@@ -23,7 +23,7 @@ var config = {
       title: "INTRODUCTION",
       image: "",
       description:
-        "With just two weeks until voters go to the polls, all eyes in Brussels are on the European Parliament elections. The results will shape the EU’s overall political direction in the years ahead. The stakes seem especially high this year with wars and crises in the bloc’s eastern and southern neighbourhoods. Moreover, far-right parties are on the rise, seeking to make Europe more inward-looking. Moving in this direction would however be to Europe’s detriment. To expand its geopolitical reach and build a safer Europe, the EU will need to invest in the tools that keep war and humanitarian catastrophe at bay both on Europe’s borders and farther afield." +
+        "With just two weeks until voters go to the polls, all eyes in Brussels are on the European Parliament elections. The results will shape the EU’s overall political direction in the years ahead. The stakes seem especially high in 2024 with wars and crises in the bloc’s eastern and southern neighbourhoods. Moreover, far-right parties are on the rise, seeking to make Europe more inward-looking. Moving in this direction would be to Europe’s detriment, however. To expand its geopolitical reach and build a safer Europe, the EU will need to invest in the tools that keep war and humanitarian catastrophe at bay both on Europe’s borders and farther afield." +
         "<br /><br />" +
         "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
