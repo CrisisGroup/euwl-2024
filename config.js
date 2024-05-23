@@ -9,7 +9,7 @@ var config = {
   projection: "globe",
   use3dTerrain: false,
   title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>EU Watch List 2024 – Spring Update</h1><p class="hedp">Each year, Crisis Group publishes two updates to the EU Watch List that identify where the EU and its member states can help enhance prospects for peace. This update includes entries on Bosnia and Herzegovina, Haiti, Sudan, the South China Sea and Hizbollah-Israel tensions.</p>' +
+    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>EU Watch List 2024 – Spring Update</h1><p class="hedp">Each year, Crisis Group publishes two updates to the EU Watch List identifying where the EU and its member states can enhance prospects for peace. This update includes entries on Bosnia and Herzegovina, Haiti, Sudan, Philippine-Chinese frictions in the South China Sea and Hizbollah-Israel tensions.</p>' +
     '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: "",
   byline: "",
@@ -23,7 +23,7 @@ var config = {
       title: "INTRODUCTION",
       image: "",
       description:
-        "Et dolore nostrud ex dolore adipisicing duis fugiat magna aliqua. Ipsum irure tempor officia tempor nostrud magna ex tempor sint laborum aliqua ullamco. Cillum fugiat officia non deserunt qui cupidatat. Irure magna ut veniam qui enim veniam est ipsum excepteur ipsum amet. Eu incididunt irure id sit dolore excepteur. Lorem incididunt do consequat veniam deserunt et reprehenderit fugiat sint nulla quis. Et in nulla aliqua eu anim cupidatat ea labore." +
+        "With just two weeks until voters go to the polls, all eyes in Brussels are on the European Parliament elections. The results will shape the EU’s overall political direction in the years ahead. The stakes seem especially high this year with wars and crises in the bloc’s eastern and southern neighbourhoods. Moreover, far-right parties are on the rise, seeking to make Europe more inward-looking. Moving in this direction would however be to Europe’s detriment. To expand its geopolitical reach and build a safer Europe, the EU will need to invest in the tools that keep war and humanitarian catastrophe at bay both on Europe’s borders and farther afield." +
         "<br /><br />" +
         "<strong>Scroll down to continue. &#8595;</strong>",
       location: {
@@ -323,7 +323,7 @@ var config = {
       alignment: "full",
       hidden: false,
       title: "",
-      image: "images/sudan.png",
+      image: "images/sudan.jpg",
       description: "<br /><br /><br />",
       location: {
         center: [27.75505, 15.19553],
@@ -482,7 +482,7 @@ var config = {
       title: "BOSNIA AND HERZEGOVINA",
       image: "",
       description:
-        "The EU and member states should:<ul><li>Work toward a balanced deal and press for a new election law;</li><li>Coordinate with the U.S. and Quint countries to guide the High Representative’s actions;</li><li>Help Bosnian leaders settle ownership of state- and military-owned property, the last condition before closing the High Representative’s office;</li><li>Use forthcoming EU membership talks for dialogue about re-evaluating the Dayton accords framework;</li><li>Make clear that secession would compromise EU accession.</li></ul>" +
+        "The EU and member states should:<ul><li>Work toward a deal in which Republika Srpska stops trying to run its own elections, the High Representative does not impose punitive measures without consensus support from key governments, and Bosnia enacts a new election law;</li><li>Coordinate with the U.S. and Quint countries to guide the High Representative so that he uses his powers when there is clear consensus that they are needed to prevent damage;</li><li>Help Bosnian leaders settle ownership of state- and military-owned property, the last condition before closing the High Representative’s office;</li><li>Use forthcoming EU membership talks for dialogue about re-evaluating the Dayton accords framework;</li><li>Make clear that secession would compromise EU accession.</li></ul>" +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#bosnia" target="_blank">&#8594; [Read more]</a>',
       location: {
